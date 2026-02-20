@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redactly — Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.7;
+        }
+        .header {
+            text-align: center;
+            padding: 48px 24px 32px;
+            border-bottom: 1px solid #1e1e1e;
+        }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #f5f5f5;
+            margin-bottom: 4px;
+        }
+        .header p {
+            color: #888;
+            font-size: 16px;
+        }
+        .content {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 40px 24px 64px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #f5f5f5;
+            margin-top: 36px;
+            margin-bottom: 12px;
+        }
+        h2:first-of-type { margin-top: 0; }
+        p { margin-bottom: 16px; color: #c0c0c0; }
+        .contact-card {
+            background: #1a1a1e;
+            border-radius: 16px;
+            padding: 24px;
+            margin: 24px 0;
+            text-align: center;
+        }
+        .contact-card .icon {
+            font-size: 40px;
+            margin-bottom: 12px;
+        }
+        .contact-card h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #f5f5f5;
+            margin-bottom: 4px;
+        }
+        .contact-card p { color: #888; margin-bottom: 12px; }
+        .contact-card a {
+            display: inline-block;
+            background: #1a2e18;
+            color: #5ce0d8;
+            padding: 10px 24px;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            transition: background 0.2s;
+        }
+        .contact-card a:hover { background: #243d20; }
+        .faq-item {
+            background: #1a1a1e;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 12px;
+        }
+        .faq-item h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #f5f5f5;
+            margin-bottom: 8px;
+        }
+        .faq-item p {
+            margin-bottom: 0;
+            font-size: 15px;
+            color: #a0a0a0;
+        }
+        a { color: #5ce0d8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .back {
+            display: inline-block;
+            margin-top: 40px;
+            color: #5ce0d8;
+            font-size: 14px;
+        }
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            color: #555;
+            font-size: 13px;
+            border-top: 1px solid #1e1e1e;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Redactly — Support</h1>
+        <p>We're here to help.</p>
+    </div>
+
+    <div class="content">
+        <div class="contact-card">
+            <div class="icon">✉️</div>
+            <h3>Email Support</h3>
+            <p>We typically respond within 24 hours.</p>
+            <a href="mailto:qinxin33204@gmail.com?subject=Redactly%20Support%20Request">Send Email</a>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>Are my photos uploaded to any server?</h3>
+            <p>No. All image processing happens 100% on your device. Your photos never leave your phone. Redactly uses Apple's on-device Vision framework — no internet connection is needed for any detection or redaction feature.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What's included in the free version?</h3>
+            <p>The free version includes all detection categories (phone numbers, emails, faces, URLs, addresses, names), 3 redaction styles (blur, pixelate, solid fill), manual region selection, and the ability to process up to 3 images per day.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What does Redactly Pro include?</h3>
+            <p>Pro unlocks unlimited daily processing, batch redaction (up to 50 images), 6+ redaction styles, full edit history, and custom redaction presets.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I restore my purchase?</h3>
+            <p>Open Redactly → Settings → Restore Purchases. If your subscription is active, Pro features will be restored automatically. Make sure you're signed in with the same Apple ID used for the original purchase.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I cancel my subscription?</h3>
+            <p>Subscriptions are managed through Apple. Go to iPhone Settings → your name → Subscriptions → Redactly → Cancel Subscription. You'll retain Pro access until the end of your current billing period.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Why can't the app detect certain text?</h3>
+            <p>Detection accuracy depends on image quality, text size, and language. Very small text, heavily stylized fonts, or text on complex backgrounds may be harder to detect. You can always use the manual region selection to redact areas that auto-detection missed.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What does "Strip Metadata" do?</h3>
+            <p>Photos contain hidden EXIF data including GPS location, camera model, and timestamps. When enabled, this feature removes all metadata from exported images, giving you an extra layer of privacy when sharing.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Which iOS versions are supported?</h3>
+            <p>Redactly requires iOS 16.0 or later, and works on both iPhone and iPad.</p>
+        </div>
+
+        <a href="../" class="back">← Back to all apps</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Sean. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean's Apps</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+            background: #0a0a0a;
+            color: #f5f5f5;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 48px 24px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #888;
+            font-size: 16px;
+            margin-bottom: 48px;
+        }
+        .app-card {
+            background: #1a1a1e;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 16px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            text-decoration: none;
+            color: inherit;
+            transition: background 0.2s;
+        }
+        .app-card:hover { background: #242428; }
+        .app-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            flex-shrink: 0;
+        }
+        .app-info h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .app-info p {
+            color: #888;
+            font-size: 14px;
+        }
+        .links {
+            display: flex;
+            gap: 12px;
+            margin-top: 8px;
+        }
+        .links a {
+            font-size: 13px;
+            color: #5ce0d8;
+            text-decoration: none;
+        }
+        .links a:hover { text-decoration: underline; }
+        footer {
+            margin-top: 48px;
+            color: #555;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sean's Apps</h1>
+        <p class="subtitle">Privacy-focused tools, crafted with care.</p>
+
+        <div class="app-card">
+            <div class="app-icon">🔒</div>
+            <div class="app-info">
+                <h2>Redactly</h2>
+                <p>One tap. All private. Auto-redact sensitive info from screenshots.</p>
+                <div class="links">
+                    <a href="redactly/privacy.html">Privacy Policy</a>
+                    <a href="redactly/support.html">Support</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Future apps go here -->
+        <!--
+        <div class="app-card">
+            <div class="app-icon">🎯</div>
+            <div class="app-info">
+                <h2>Your Next App</h2>
+                <p>Description here.</p>
+                <div class="links">
+                    <a href="next-app/privacy.html">Privacy Policy</a>
+                    <a href="next-app/support.html">Support</a>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <footer>
+            <p>&copy; 2026 Sean. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
